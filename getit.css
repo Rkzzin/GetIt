@@ -20,6 +20,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0rem 3rem;
 }
 
 .form-card {
@@ -71,11 +72,11 @@ main {
 }
 
 .card {
-  width: 12%;
+  width: 14%;
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.24), 0 2px 30px rgba(0,0,0,0.30);
   min-height: 130px;
 }
 
