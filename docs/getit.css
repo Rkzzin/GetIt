@@ -1,0 +1,156 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 6rem;
+  padding: 0.5rem 1rem;
+}
+
+.appbar {
+  display: flex;
+  background-color: #f7d736;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.42);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card {
+  width: 40%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.16), 0 10px 18px rgba(0,0,0,0.23);
+  margin-bottom: 2rem;
+}
+
+.form-card-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  border: 0 none;
+}
+
+.autoresize {
+  border: 0 none;
+  resize: none; 
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+}
+
+.btn {
+  background-color: #f7d736;
+  cursor: pointer;
+  border: 0 none;
+  padding: .7rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #e0c332;
+}
+
+.btn:active {
+  background-color: #c0a72b;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 12%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  min-height: 130px;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: "Permanent Marker", cursive;
+}
+
+.card-content {
+  color: #4c4c4c;
+  font-family: "Permanent Marker", cursive;;
+}
+
+.card-color-1 {
+  background-color: #9de0f5;
+}
+
+.card-color-2 {
+  background-color: #ead3a7;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(6deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-6deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(8deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-8deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(10deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-10deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(12deg);
+}
